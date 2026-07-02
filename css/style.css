@@ -19,7 +19,9 @@
 }
 
 * {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
   font-size: 24px;
+  color: white;
 }
 
 .info-card {
@@ -28,15 +30,16 @@
   margin: 20px;
   border-radius: 10px;
   border: solid 2px white;
-  color: lightyellow;
 }
 
 .info-institute-name > b {
+  font-family:
+    "Roboto Slab", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1.2rem;
 }
 
 .info-details {
-  color: lightyellow;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
 }
 
 h3 {
@@ -48,8 +51,6 @@ h3 {
 }
 
 .theme {
-  font-family:
-    "Roboto Slab", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,18 +87,6 @@ h3 {
 }
 
 body {
-  /* background-image: url(/figs/background.jpg); */
-  /* background-image: url(/figs/background_climber.png); */
-  /* background-image: url(/figs/background_wave.png); */
-  /* background-image: url(/figs/background_bw.jpg); */
-  /* background-image: url(/figs/background_black_board.jpg); */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  /* min-height: 100vh; */
-  /* margin: 0; */
-
   background-color: #003366;
   background-image: linear-gradient(315deg, #003366 0%, #242124 74%);
   background-size: cover;
@@ -127,12 +116,14 @@ main {
 }
 
 .horizontal-rule {
-  border: solid lightyellow 2px;
+  border: solid white 2px;
   margin: 10px auto;
   width: 100%;
 }
 
 .hero-text {
+  font-family:
+    "Roboto Slab", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
   font-weight: bold;
   font-size: 2.5rem;
@@ -173,7 +164,6 @@ footer,
 footer > a {
   text-decoration: none;
   text-align: center;
-  color: lightyellow;
   font-size: 1rem;
   font-family: Nunito, Arial, Helvetica, sans-serif;
 }
@@ -181,6 +171,7 @@ footer > a {
 .showcase-card-section {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .showcase-card {
@@ -195,4 +186,9 @@ footer > a {
 
 .showcase-card > i {
   font-size: 5rem;
+}
+
+a > i:hover,
+a:hover {
+  color: cornflowerblue;
 }
