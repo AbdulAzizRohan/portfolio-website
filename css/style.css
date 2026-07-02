@@ -57,7 +57,16 @@ body {
   /* background-image: url(/figs/background_climber.png); */
   /* background-image: url(/figs/background_wave.png); */
   /* background-image: url(/figs/background_bw.jpg); */
-  background-image: url(/figs/background_black_board.jpg);
+  /* background-image: url(/figs/background_black_board.jpg); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* min-height: 100vh; */
+  /* margin: 0; */
+
+  background-color: #003366;
+  background-image: linear-gradient(315deg, #003366 0%, #242124 74%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
